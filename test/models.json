@@ -1,4 +1,4 @@
-[
+    [
   {
     "type":   "caffe",
     "target": "1D_lstm.prototxt",
@@ -2458,6 +2458,27 @@
     "source": "https://raw.githubusercontent.com/Microsoft/onnxruntime/master/onnxruntime/test/testdata/mlnet_encoder.onnx",
     "format": "ONNX v3",
     "link":   "https://github.com/Microsoft/onnxruntime/tree/master/onnxruntime/test/testdata"
+  },
+  {
+    "type":   "onnx",
+    "target": "netron_issue168_onnx_if.pbtxt",
+    "source": "https://github.com/lutzroeder/netron/files/3230590/netron_issue168_onnx.zip[netron_issue168_onnx_if.pbtxt]",
+    "format": "ONNX v3",
+    "link":   "https://github.com/lutzroeder/netron/issues/168"
+  },
+  {
+    "type":   "onnx",
+    "target": "netron_issue168_onnx_loop.pbtxt",
+    "source": "https://github.com/lutzroeder/netron/files/3230590/netron_issue168_onnx.zip[netron_issue168_onnx_loop.pbtxt]",
+    "format": "ONNX v3",
+    "link":   "https://github.com/lutzroeder/netron/issues/168"
+  },
+  {
+    "type":   "onnx",
+    "target": "netron_issue168_onnx_scan.pbtxt",
+    "source": "https://github.com/lutzroeder/netron/files/3230590/netron_issue168_onnx.zip[netron_issue168_onnx_scan.pbtxt]",
+    "format": "ONNX v3",
+    "link":   "https://github.com/lutzroeder/netron/issues/168"
   },
   {
     "type":   "onnx",
